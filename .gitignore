@@ -1,0 +1,37 @@
+# Large data files — train locally, never commit
+IPL_with_match_types.csv
+
+# Course PDFs
+*.pdf
+
+# Claude Code session data
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Byte-compiled
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/secrets.toml

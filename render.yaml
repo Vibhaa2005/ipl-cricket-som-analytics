@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ipl-som-analytics
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: MPLBACKEND
+        value: Agg
+    healthCheckPath: /
+    # Free tier: 512 MB RAM.  If memory pressure, upgrade to starter (512MB → 1GB).
